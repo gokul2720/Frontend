@@ -1,0 +1,27 @@
+.abc {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.abc1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.abc2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.abc3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}

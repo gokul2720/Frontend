@@ -1,0 +1,25 @@
+.first {
+  color: teal;
+}
+
+.sec {
+  color: pink;
+}
+
+.third {
+  color: brown;
+}
+/* 
+#from {
+  color: yellow;
+  background-color: brown;
+}
+
+#to {
+  color: aquamarine;
+  background-color: chocolate; */
+/* } */
+
+h1:hover {
+  color: brown;
+}

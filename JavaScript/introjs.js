@@ -1,0 +1,15 @@
+debugger;
+var a = "gokul";
+var c = 100;
+console.log(a);
+var a = "gp";
+console.log(b);
+var b = a;
+console.log(typeof a);
+console.log(typeof c);
+var d = 5 > 6;
+console.log(typeof d);
+var s;
+console.log(typeof s);
+var z = null;
+console.log(typeof z);

@@ -19,5 +19,13 @@ function login() {
 
 function increment() {
   a += 10;
+  localStorage.setItem("a", a);
   console.log("a after click", a);
 }
+
+function logout() {
+  localStorage.clear();
+  sessionStorage.clear();
+}
+
+sessionStorage.getItem("sessionId");

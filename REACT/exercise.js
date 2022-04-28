@@ -1,13 +1,13 @@
 //JSX
 const cars = ["audi", "bmw", "mercedes", "bugatti", "koenigseigg"];
 
-const carData = (
-  <ul>
-    {cars.map((car, index) => {
-      return <li key={index}>{car}</li>;
-    })}
-  </ul>
-);
+// const carData = (
+//   <ul>
+//     {cars.map((car, index) => {
+//       return <li key={index}>{car}</li>;
+//     })}
+//   </ul>
+// );
 
 //React element
 const e1 = React.createElement(
@@ -17,9 +17,4 @@ const e1 = React.createElement(
     return React.createElement("li", null, car);
   })
 );
-ReactDOM.render(
-  <div>
-    {carData},{e1}
-  </div>,
-  (document.getElementById = "root")
-);
+ReactDOM.render(e1, document.getElementById("root"));

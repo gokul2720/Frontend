@@ -14,4 +14,30 @@ class Header extends React.Component {
     );
   }
 }
-ReactDOM.render(<Header name="gp" />, document.getElementById("root"));
+// ReactDOM.render(<Header name="gp" />, document.getElementById("root"));
+
+class Content extends React.Component {
+  render() {
+    return (
+      <h1>
+        {this.props.fname}
+        {this.props.lname}
+      </h1>
+    );
+  }
+}
+
+class Footer extends React.Component {
+  render() {
+    return <p>Footer</p>;
+  }
+}
+
+ReactDOM.render(
+  <div>
+    <Header name="GP" />
+    <Content fname="Gokul." lname="P" />
+    <Footer />
+  </div>,
+  document.getElementById("root")
+);
